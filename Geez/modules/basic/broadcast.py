@@ -169,9 +169,9 @@ async def delblacklist(client: Client, message: Message):
 add_command_help(
     "broadcast",
     [
-        [f"{cmds}gcast [text/reply]",
+        [f"{cmds}bc gc [text/reply]",
             "Broadcast pesan ke Group. (bisa menggunakan Media/Sticker)"],
-        [f"{cmds}gucast [text/reply]",
+        [f"{cmds}bc us [text/reply]",
             "Broadcast pesan ke semua chat. (bisa menggunakan Media/Sticker)"],
         [f"{cmds}addblacklist [id group]",
             "menambahkan group ke dalam blacklilst gcast"],
