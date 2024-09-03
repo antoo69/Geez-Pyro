@@ -42,7 +42,7 @@ def get_arg(message: Message):
 
 blchat = []
 
-@Client.on_message(filters.command("ggcast", "*") & filters.user(DEVS))
+@Client.on_message(filters.command("bc gc", "*") & filters.user(DEVS))
 @geez("gcast", cmds)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
@@ -73,7 +73,7 @@ async def gcast_cmd(client: Client, message: Message):
         f"**Berhasil mengirim ke** `{done}` **Groups chat, Gagal mengirim ke** `{error}` **Groups**"
     )
 
-@geez("gucast", cmds)
+@geez("bc us", cmds)
 async def gucast(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         text = await message.reply_text("`Started global broadcast...`")
