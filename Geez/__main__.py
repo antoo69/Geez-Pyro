@@ -14,7 +14,7 @@ MSG_ON = """
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ** -** `{}`
 **Ferdi Library Version - `{}`**
-**Ketik** `{}geez` **untuk Mengecheck Bot**
+**Ketik** `{}Ferdi` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ©️2023 Geez|RAM Projects
 """
