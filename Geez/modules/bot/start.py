@@ -29,10 +29,10 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 geezlogo = [
-    "https://telegra.ph/file/d03ce0fb84f81be3aeb09.png",
-    "https://telegra.ph/file/200355acbe58c46400f5b.png",
-    "https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
-    "https://telegra.ph/file/4143843c984a8ecdc813e.png"
+    "https://envs.sh/PHS.jpg",
+    "https://envs.sh/0a0.jpg",
+    "https://envs.sh/0aW.jpg",
+    "https://envs.sh/Pvl.jpg"
 ]
 
 alive_logo = random.choice(geezlogo)
@@ -41,10 +41,10 @@ alive_logo = random.choice(geezlogo)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "Yoo, saya geez Pyro Assistant, gada yang spesial dari saya\ntapi boong..."
+    caption = "Yoo, saya ferdi Userbot Assistant, gada yang spesial dari saya\ntapi boong..."
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Support", url="https://t.me/GeezRam"),
+            InlineKeyboardButton("Support", url="https://t.me/BestieVirtual"),
             InlineKeyboardButton("Repo", url="https://github.com/hitokizzy/Geez/Pyro"),
         ],
     ])
