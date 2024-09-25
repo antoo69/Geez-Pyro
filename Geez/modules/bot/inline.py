@@ -37,10 +37,10 @@ from config import OWNER_ID
 
 
 geezlogo = [
-    "https://telegra.ph/file/d03ce0fb84f81be3aeb09.png",
-    "https://telegra.ph/file/200355acbe58c46400f5b.png",
-    "https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
-    "https://telegra.ph/file/4143843c984a8ecdc813e.png"
+    "https://envs.sh/Pvl.jpg",
+    "https://envs.sh/PHS.jpg",
+    "https://envs.sh/0a0.jpg",
+    "https://envs.sh/0aW.jpg"
 ]
 
 async def get_readable_time(seconds: int) -> str:
@@ -85,7 +85,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
+            thumb_url="https://envs.sh/PHS.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -103,7 +103,7 @@ async def ping_function(message: Message, answers):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     msg = (
-        f"<b>Geez - Pyro!!🎈</b>\n\n"
+        f"<b>Ferdi ~ Userbot!!🎈</b>\n\n"
         f"ping :</b> <code>{duration}ms</code>\n"
         f"uptime :</b> <code>{uptime}</code>"
     )
@@ -111,7 +111,7 @@ async def ping_function(message: Message, answers):
         InlineQueryResultArticle(
             title="ping",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/c78bb1efdeed38ee16eb2.png",
+            thumb_url="https://envs.sh/0a0.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
