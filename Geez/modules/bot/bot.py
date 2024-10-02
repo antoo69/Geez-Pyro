@@ -35,14 +35,14 @@ async def _callbacks(_, callback_query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(buttons),
         )
     elif query == "close":
-        await app.edit_inline_text(callback_query.inline_message_id, "**CLOSED**")
+        await app.edit_inline_text(callback_query.inline_message_id, "**TUTUP**")
         return
     elif query == "close_help":
         if callback_query.from_user.id not in users:
            return
         await app.edit_inline_text(
             callback_query.inline_message_id,
-            "**CLOSED MENU HELP**",
+            "**TUTUP MENU HELP**",
             reply_markup=InlineKeyboardMarkup(Data.reopen),
         )
         return
