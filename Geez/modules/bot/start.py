@@ -41,7 +41,7 @@ alive_logo = random.choice(geezlogo)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "✨Halo!, Saya Asisstant Userbot Ferdi"
+    caption = "✨Halo!, Saya Asisstant Userbot Ferdi✨"
     reply_markup = InlineKeyboardMarkup([
         [
             InlineKeyboardButton("Support", url="https://t.me/BestieVirtual"),
