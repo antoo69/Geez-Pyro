@@ -53,7 +53,7 @@ async def make_blink(client: Client, message: Message):
     except IndexError:
         return await msg.edit("`Provide a name to make logo...`")
     logo = blackpink(match)
-    name = "geezram.png"
+    name = "fsyrl.png"
     logo.save(name)
     await message.delete(msg)
     await client.send_photo(
