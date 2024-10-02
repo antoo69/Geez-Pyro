@@ -39,11 +39,11 @@ from Geez.modules.basic import add_command_help
 from Geez import cmds
 
 babi= [
-    "cup, nemu stiker...",
-    "cakep nih, colong ah",
-    "simsalabim, abrakadabra",
-    "bagi, ga boleh pelit!",
-    "pinjem bentar...",
+    "wihh, stiker bagus nih",
+    "Minta ya ....",
+    "Pindahin dulu...",
+    "Bang minta ya...",
+    "Jangan pelit...!!!",
 ]
 
 
