@@ -115,7 +115,7 @@ async def blchatgcast(client: Client, message: Message):
     else:
         await edit_or_reply(message, "🔮 **Blacklist GCAST:** `Disabled`")
 
-@geez("addblacklist", cmds)
+@geez("addbl", cmds)
 async def addblacklist(client: Client, message: Message):
     xxnx = await edit_or_reply(message, "`Processing...`")
     if HAPP is None:
@@ -142,7 +142,7 @@ async def addblacklist(client: Client, message: Message):
         dotenv.set_key(path, "BLACKLIST_GCAST", blacklistgrup)
     restart()
 
-@geez("delblacklist", cmds)
+@geez("delbl", cmds)
 async def delblacklist(client: Client, message: Message):
     xxnx = await edit_or_reply(message, "`Processing...`")
     if HAPP is None:
