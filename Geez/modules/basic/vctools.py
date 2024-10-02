@@ -143,7 +143,7 @@ add_command_help(
         [f"{cmds}startvc", "Start voice chat group."],
         [f"{cmds}stopvc", "End voice chat group."],
         [f"{cmds}joinvcvc", "Join voice chat group."],
-        [f"{cmds}jvc", "Join voice chat group."]
+        [f"{cmds}jvc", "Join voice chat group."],
         [f"{cmds}leavevc", "Leavevoice chat group."],
         [f"{cmds}lvc", "Leavevoice chat group."],
     ],
